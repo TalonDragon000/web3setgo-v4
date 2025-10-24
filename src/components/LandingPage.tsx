@@ -1,6 +1,7 @@
 import { Button } from "./ui/button";
 import { motion } from "motion/react";
 import { Sparkles, LogIn, Coins } from "lucide-react";
+import { TypewriterText } from "./TypewriterText";
 
 interface LandingPageProps {
   onStartQuiz: () => void;
@@ -27,7 +28,7 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
 
         <div className="space-y-4">
           <h1 className="text-gray-900">
-            You’ve heard the buzz about Web3 — now see what it really means for you.
+            You've heard the buzz about <TypewriterText words={["Web3", "Crypto", "Blockchain", "Bitcoin"]} /> — now see what it really means for you.
           </h1>
           <p className="text-gray-600 max-w-xl mx-auto">
             Take our quick quiz to discover your personal Web3 path and get a custom dashboard with beginner-friendly tools and guides.
