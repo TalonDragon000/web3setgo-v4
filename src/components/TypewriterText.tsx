@@ -70,7 +70,7 @@ export function TypewriterText({
         {currentText}
       </span>
       <span
-        className="text-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent text-xl ml-0.5"
+        className="text-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent font-xl ml-0.5"
         style={{ opacity: showCursor ? 1 : 0 }}
       >
         |
