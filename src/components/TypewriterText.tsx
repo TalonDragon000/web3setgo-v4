@@ -58,7 +58,7 @@ export function TypewriterText({
 
   if (prefersReducedMotion) {
     return (
-      <span className="h1 text-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent font-bold">
+      <span className="text-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent font-bold">
         {words.join(" / ")}
       </span>
     );
@@ -66,11 +66,11 @@ export function TypewriterText({
 
   return (
     <span className="inline-block">
-      <span className="h1 text-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent font-bold">
+      <span className="text-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent font-bold">
         {currentText}
       </span>
       <span
-        className="h1 text-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent font-bold ml-0.5"
+        className="text-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent font-bold ml-0.5"
         style={{ opacity: showCursor ? 1 : 0 }}
       >
         |
