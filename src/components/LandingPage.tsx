@@ -27,11 +27,10 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
 
         <div className="space-y-4">
           <h1 className="text-gray-900">
-            Welcome to Web3 Hub
+            You’ve heard the buzz about Web3 — now see what it really means for you.
           </h1>
           <p className="text-gray-600 max-w-xl mx-auto">
-            Your personalized gateway to the decentralized future. Take our quick quiz
-            to discover your crypto interests and get a custom dashboard, or sign in to access your Web3 profile.
+            Take our quick quiz to discover your personal Web3 path and get a custom dashboard with beginner-friendly tools and guides.
           </p>
         </div>
 
@@ -47,7 +46,7 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
             className="bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white px-8"
           >
             <Sparkles className="w-4 h-4 mr-2" />
-            Start Quiz
+            Take the Quiz
           </Button>
           <Button
             onClick={onLogin}
