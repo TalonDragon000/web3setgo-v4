@@ -70,7 +70,6 @@ export function TypewriterText({
         {currentText}
       </span>
       <span
-        className="ml-0.5"
         style={{ opacity: showCursor ? 1 : 0 }}
       >
         |
