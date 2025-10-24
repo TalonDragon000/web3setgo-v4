@@ -58,7 +58,7 @@ export function TypewriterText({
 
   if (prefersReducedMotion) {
     return (
-      <span className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent text-4xl">
+      <span className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent text-5xl font-bold">
         {words.join(" / ")}
       </span>
     );
