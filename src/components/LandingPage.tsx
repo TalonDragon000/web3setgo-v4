@@ -27,7 +27,7 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
         </motion.div>
 
         <div className="space-y-4">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+          <h1 className="text-4xl md:text-5xl font-bold leading-tight">
             You've heard the buzz about <TypewriterText words={["Web3", "Crypto", "Blockchain", "Bitcoin"]} />
             — now see what it really means for you.
           </h1>
