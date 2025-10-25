@@ -31,7 +31,7 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
             <div className="flex grid-cols-2"> 
               <span className="grid-cols-1 items-center flex"> You've heard the buzz about </span>
               <span><TypewriterText words={["Web3", "Crypto", "Blockchain", "Bitcoin"]} className="grid-cols-2 justify-left flex"/></span>
-              <span clasName="grid-row-2 flex justify-center">— now see what it really means for you. </span>
+              <h1 clasName="grid-row-2 flex justify-center">— now see what it really means for you. </h1>
             </div>
           </div>
           <p className="text-gray-600 max-w-xl mx-auto">
