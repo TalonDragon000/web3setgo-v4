@@ -28,9 +28,9 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
 
         <div className="space-y-4">
           <h1 className="grid-inline grid-cols-2 flex gap-4 text-5xl md:text-5xl font-bold leading-tight">
-            <div className="grid-cols-1 justify-left flex"> You've heard the buzz about </div><TypewriterText words={["Web3", "Crypto", "Blockchain", "Bitcoin"]} className="grid-cols-2 justify-center flex"/>
+            <span className="grid-cols-1 justify-left flex"> You've heard the buzz about </span><TypewriterText words={["Web3", "Crypto", "Blockchain", "Bitcoin"]} className="grid-cols-2 justify-center flex"/>
             <br></br>
-            — now see what it really means for you.
+            <span>— now see what it really means for you. </span>
           </h1>
           <p className="text-gray-600 max-w-xl mx-auto">
             Take our quick quiz to discover your personal Web3 path and get a custom dashboard with beginner-friendly tools and guides.
