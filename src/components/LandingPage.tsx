@@ -36,7 +36,7 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
                   className="inline-block align-baseline text-gradient-"
                 />
               </span>
-            </div>
+            </div><br></br>
           <div className="mt-2">
             — now see what it really means for you.
           </div>
