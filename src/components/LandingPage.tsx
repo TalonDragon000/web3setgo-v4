@@ -27,8 +27,8 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
         </motion.div>
 
         <div className="space-y-4">
-          <div className="text-5xl md:text-6xl font-bold leading-tight">
-            <div className="flex items-center gap-4 flex-wrap">
+          <div className="flex items-center text-5xl md:text-6xl font-bold leading-tight">
+            <div className="flex items-baseline gap-4 flex-wrap">
               <span className="whitespace-nowrap">You've heard the buzz about</span>
               <span className="inline-block min-w-[8ch] text-inherit">
                 <TypewriterText 
