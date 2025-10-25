@@ -27,8 +27,10 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
         </motion.div>
 
         <div className="space-y-4">
-          <div className="h1 grid-inline grid-cols-2 grid-rows-2 flex gap-4 text-5xl md:text-5xl font-bold leading-tight">
-            <div className="grid-cols-1 justify-left flex"> You've heard the buzz about </div><TypewriterText words={["Web3", "Crypto", "Blockchain", "Bitcoin"]} className="grid-cols-2 justify-center flex"/>
+          <div className="flex gap-2 text-5xl md:text-5xl font-bold leading-tight">
+            <div className="flex grid-cols-2"> 
+              <span className="grid-cols-1 items-center flex"> You've heard the buzz about </span>
+              <span><TypewriterText words={["Web3", "Crypto", "Blockchain", "Bitcoin"]} className="grid-cols-2 justify-left flex"/><span>
             <br></br>
             <span clasName="grid-row-2 flex justify-center">— now see what it really means for you. </span>
           </div>
