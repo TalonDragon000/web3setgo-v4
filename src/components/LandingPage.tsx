@@ -30,7 +30,7 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
           <div className="h1 grid-inline grid-cols-2 flex gap-4 text-5xl md:text-5xl font-bold leading-tight">
             <span className="grid-cols-1 justify-left flex"> You've heard the buzz about </span><TypewriterText words={["Web3", "Crypto", "Blockchain", "Bitcoin"]} className="grid-cols-2 justify-center flex"/>
             <br></br>
-            <span>— now see what it really means for you. </span>
+            <span clasName="grid-row-2 flex justify-center">— now see what it really means for you. </span>
           </div>
           <p className="text-gray-600 max-w-xl mx-auto">
             Take our quick quiz to discover your personal Web3 path and get a custom dashboard with beginner-friendly tools and guides.
