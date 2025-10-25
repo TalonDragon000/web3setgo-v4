@@ -1,6 +1,7 @@
 import { Button } from "./ui/button";
 import { motion } from "motion/react";
 import { Sparkles, LogIn, Coins } from "lucide-react";
+import { TypewriterText } from "./TypewriterText";
 
 interface LandingPageProps {
   onStartQuiz: () => void;
