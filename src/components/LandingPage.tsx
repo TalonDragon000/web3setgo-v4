@@ -27,12 +27,12 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
         </motion.div>
 
         <div className="space-y-4">
-          <div className="flex items-center gap-4 text-5xl md:text-5xl font-bold leading-tight">
+          <div className="h1 flex items-center gap-4 text-5xl md:text-5xl font-bold leading-tight">
             <span className="flex grow-2"> You've heard the buzz about</span>
               <span><TypewriterText words={["Web3", "Crypto", "Blockchain", "Bitcoin"]} className="grow-1"/></span>
               <br></br>
               <span clasName="grid-row-2 flex justify-center">— now see what it really means for you. </span>
-            </h1>
+            </div>
           </div>
           <p className="text-gray-600 max-w-xl mx-auto">
             Take our quick quiz to discover your personal Web3 path and get a custom dashboard with beginner-friendly tools and guides.
