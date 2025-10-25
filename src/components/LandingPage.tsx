@@ -1,7 +1,6 @@
 import { Button } from "./ui/button";
 import { motion } from "motion/react";
 import { Sparkles, LogIn, Coins } from "lucide-react";
-import { TypewriterText } from "./TypewriterText";
 
 interface LandingPageProps {
   onStartQuiz: () => void;
@@ -27,24 +26,13 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
         </motion.div>
 
         <div className="space-y-4">
-          <div className="flex items-center no-wrap text-5xl md:text-6xl font-bold leading-tight">
-            <div className="flex items-baseline gap-4 flex-wrap">
-              <span className="whitespace-nowrap">You've heard the buzz about</span>
-              <span className="inline-block min-w-[8ch] text-inherit">
-                <TypewriterText 
-                  words={["Web3", "Crypto", "Blockchain", "Bitcoin"]} 
-                  className="inline-block align-baseline text-gradient-"
-                />
-              </span>
-            </div>
-          <div className="mt-2">
-            <p>— now see what it really means for you.</p>
-          </div>
+          <h1 className="text-gray-900">
+            You’ve heard the buzz about Web3 — now see what it really means for you.
+          </h1>
+          <p className="text-gray-600 max-w-xl mx-auto">
+            Take our quick quiz to discover your personal Web3 path and get a custom dashboard with beginner-friendly tools and guides.
+          </p>
         </div>
-        <p className="text-gray-600 max-w-xl mx-auto">
-          Take our quick quiz to discover your personal Web3 path and get a custom dashboard with beginner-friendly tools and guides.
-        </p>
-      </div>
 
         <motion.div
           initial={{ opacity: 0 }}
