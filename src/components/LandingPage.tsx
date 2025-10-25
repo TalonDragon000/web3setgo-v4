@@ -32,9 +32,9 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
             <br></br>
             — now see what it really means for you
           </div>
-          <p className="text-gray-600 max-w-xl mx-auto">
+          <div className="text-gray-600 max-w-xl mx-auto">
           Take our quick quiz to discover your personal Web3 path and get a custom dashboard with beginner-friendly tools and guides.
-          </p>
+          </div>
         </div>
 
         <motion.div
