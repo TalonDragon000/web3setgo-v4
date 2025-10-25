@@ -27,8 +27,8 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
         </motion.div>
 
         <div className="space-y-4">
-          <div className="flex items-center text-5xl md:text-5xl font-bold leading-tight">
-            <h1 className="grow-2"> You've heard the buzz about
+          <div className="flex items-center gap-4 text-5xl md:text-5xl font-bold leading-tight">
+            <h1 className="flex grow-2"> You've heard the buzz about
               <span><TypewriterText words={["Web3", "Crypto", "Blockchain", "Bitcoin"]} className="grow-1"/></span>
               <br></br>
               <span clasName="grid-row-2 flex justify-center">— now see what it really means for you. </span>
