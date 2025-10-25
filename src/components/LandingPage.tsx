@@ -27,17 +27,24 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
         </motion.div>
 
         <div className="space-y-4">
-          <div className="h1 flex items-center gap-4 text-5xl md:text-5xl font-bold leading-tight">
-            <span className="flex grow-2"> You've heard the buzz about</span>
-              <span><TypewriterText words={["Web3", "Crypto", "Blockchain", "Bitcoin"]} className="grow-1"/></span>
-              <br></br>
-              <span clasName="grid-row-2 flex justify-center">— now see what it really means for you. </span>
+          <div className="text-5xl md:text-6xl font-bold text-blue-600 leading-tight">
+            <div className="flex items-baseline gap-4 flex-wrap">
+              <span className="whitespace-nowrap">You've heard the buzz about</span>
+              <span className="inline-block min-w-[8ch] text-inherit">
+                <TypewriterText 
+                  words={["Web3", "Crypto", "Blockchain", "Bitcoin"]} 
+                  className="inline-block align-baseline"
+                />
+              </span>
             </div>
+          <div className="mt-2">
+            — now see what it really means for you.
           </div>
-          <p className="text-gray-600 max-w-xl mx-auto">
-            Take our quick quiz to discover your personal Web3 path and get a custom dashboard with beginner-friendly tools and guides.
-          </p>
         </div>
+        <p className="text-gray-600 max-w-xl mx-auto">
+          Take our quick quiz to discover your personal Web3 path and get a custom dashboard with beginner-friendly tools and guides.
+        </p>
+      </div>
 
         <motion.div
           initial={{ opacity: 0 }}
