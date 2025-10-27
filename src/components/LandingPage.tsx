@@ -27,14 +27,13 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
         </motion.div>
 
         <div className="space-y-4">
-          <div className="text-gray-900">
-            You've heard the buzz about <TypewriterText words={["Web3", "Crypto", "Blockchain", "Bitcoin"]} className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
-            <br></br>
-            — now see what it really means for you
-          </div>
-          <div className="text-gray-600 max-w-xl mx-auto">
-          Take our quick quiz to discover your personal Web3 path and get a custom dashboard with beginner-friendly tools and guides.
-          </div>
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+            You've heard the buzz about <TypewriterText words={["Web3", "Crypto", "Blockchain", "Bitcoin"]} />
+            — now see what it really means for you.
+          </h1>
+          <p className="text-gray-600 max-w-xl mx-auto">
+            Take our quick quiz to discover your personal Web3 path and get a custom dashboard with beginner-friendly tools and guides.
+          </p>
         </div>
 
         <motion.div
@@ -81,6 +80,7 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
             <div className="text-gray-600">Market Updates</div>
           </div>
         </motion.div>
+      </motion.div>
     </div>
   );
 }
