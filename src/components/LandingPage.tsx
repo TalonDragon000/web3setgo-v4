@@ -21,7 +21,7 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
-          className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-purple-500 to-blue-500 rounded-full mb-4"
+          class="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-purple-500 to-blue-500 text-transparent bg-clip-text rounded-full mb-4"
         >
           <Coins className="w-10 h-10 text-white" />
         </motion.div>
