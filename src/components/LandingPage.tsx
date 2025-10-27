@@ -28,7 +28,7 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
 
         <div className="space-y-4">
           <div className="text-gray-900">
-            You've heard the buzz about <TypewriterText words={["Web3", "Crypto", "Blockchain", "Bitcoin"]} class="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
+            You've heard the buzz about <TypewriterText words={["Web3", "Crypto", "Blockchain", "Bitcoin"]} ">
             <br></br>
             — now see what it really means for you
           </div>
