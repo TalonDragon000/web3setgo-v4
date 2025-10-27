@@ -81,7 +81,6 @@ export function LandingPage({ onStartQuiz, onLogin }: LandingPageProps) {
             <div className="text-gray-600">Market Updates</div>
           </div>
         </motion.div>
-      </motion.div>
     </div>
   );
 }
